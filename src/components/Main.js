@@ -1,8 +1,14 @@
+import Hero from "./Hero";
+import Highlight from "./Highlight";
+import Testimonial from "./Testimonials";
+import About from "../pages/About";
 const Main = () => {
     return (
         <main>
-            <h1>Main Content</h1>
-            <p>This is the main content of the website.</p>
+            <Hero/>
+            <Highlight/>
+            <Testimonial/>
+            <About/>
         </main>
     );
 }
